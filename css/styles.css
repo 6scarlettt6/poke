@@ -1,49 +1,49 @@
 
 html {
-  padding: 2em;
+	padding: 2em;
 }
 
 body {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  max-width: 600px;
-  margin: auto;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	max-width: 600px;
+	margin: auto;
 }
 
 form {
-  padding: 1em;
-  background: #ddd;
-  border: 1px solid rgba(0,0,0, 0.2);
-  border-radius: 1em;
+	padding: 1em;
+	background: #ddd;
+	border: 1px solid rgba(0,0,0, 0.2);
+	border-radius: 1em;
 }
 
 form label {
-  padding: 0.5em;
+	padding: 0.5em;
 }
 
 .showcase {
-  display: none;
+	display: none;
 }
 
 .showcase[data-active] {
-  display: block;
-  animation: fadeInFromNone 500ms ease-out;
+	display: block;
+	animation: fadeInFromNone 500ms ease-out;
 }
 
 @keyframes fadeInFromNone {
-  0% {
-    display: none;
-    opacity: 0;
-  }
+	0% {
+		display: none;
+		opacity: 0;
+	}
 
-  1% {
-    display: block;
-    opacity: 0;
-  }
+	1% {
+		display: block;
+		opacity: 0;
+	}
 
-  100% {
-    display: block;
-    opacity: 1;
-  }
+	100% {
+		display: block;
+		opacity: 1;
+	}
 }
