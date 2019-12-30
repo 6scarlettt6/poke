@@ -1,4 +1,5 @@
-body{
+
+body {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
@@ -6,20 +7,39 @@ body{
   url(https://www.planwallpaper.com/static/images/Pokemon_wallpaper_3_bLP3szt.jpg);
   background-size: cover;
   background-repeat:no-repeat;
-
-
 }
 
-.btn{
+.btn {
   color: white;
   background-color: darksalmon;
 }
 
-#Fire, #Water, #Grass{
+@keyframes fadeInFromNone {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+
+  1% {
+    display: block;
+    opacity: 0;
+  }
+
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+.showcase {
   display: none;
+}
+
+.showcase[data-active] {
+  display: block;
+  animation: fadeInFromNone 500ms ease-out;
 }
 
 .well {
   background-image: url();
-
 }
